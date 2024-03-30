@@ -42,6 +42,11 @@
         font-size: 1rem;
         line-height: 1.5;
       }
+      .card {
+        background-color: #03302c;
+        /* height: 100px; */
+        /* max-width: 450px; */
+      }
     </style>
   </head>
   <body>
@@ -57,6 +62,38 @@
     </div>
 
     <!-- Tailwind Version -->
-   
+    <div
+      class="flex items-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-x-4 mt-12 space"
+    >
+      <img class="w-14 h-14" src="../assets/img/warning.svg" alt="warning" />
+      <div>
+        <div class="text-xl font- text-bg-primary">Are You Sure?</div>
+        <p>You are about to delete a post</p>
+      </div>
+    </div>
+
+    <div
+      class="mt-12 p-6 max-w-sm mx-auto rounded-xl shadow-2xl flex items-center space-x-4 bg-lime-900 shadow-red-800"
+    >
+      <div class="shrink-0">
+        <img
+          class="h-12 w-12"
+          src="../assets/img/warning.svg"
+          alt="ChitChat Logo"
+        />
+      </div>
+      <div>
+        <div class="text-xl font-medium text-black">ChitChat</div>
+        <p class="text-slate-500">You have a new message!</p>
+      </div>
+    </div>
+
+    <div class="divide-y">
+      <div>items 1</div>
+      <div>items 2</div>
+      <div>items 3</div>
+      <div>items 4</div>
+      <div>items 5</div>
+    </div>
   </body>
 </html>
